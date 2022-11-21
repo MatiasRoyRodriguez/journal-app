@@ -35,7 +35,7 @@ export const SideBar = ({ drawerWidth = 240 }) => {
 									<ListItemIcon>
 										<TurnedInNot />
 									</ListItemIcon>
-									<Grid cointainer>
+									<Grid container>
 										<ListItemText primary={text} />
 										<ListItemText secondary={'Lorem ipsum dolor sit amet consectetur, adipisicing elit.'} />
 									</Grid>
