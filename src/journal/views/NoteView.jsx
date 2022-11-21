@@ -8,7 +8,9 @@ export const NoteView = () => {
 			direction="row"
 			justifyContent="space-between"
 			alignItems="center"
-			sx={{ mb: 1 }}>
+			sx={{ mb: 1 }}
+			className="animate__animated animate__fadeIn animate__faster"
+		>
 			<Grid item>
 				<Typography fontSize={39} fontWeight="light">August 28, 2023</Typography>
 			</Grid>
